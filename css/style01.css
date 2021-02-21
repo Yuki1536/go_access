@@ -1,0 +1,50 @@
+body {
+	color: #333333;
+	margin: 2px 0 2px 0;
+	background-color: #FFFFFF;
+	font-size: 10pt;
+	font-family	: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3"; 
+/*	font-family: 'メイリオ' ,Meiryo, 'ヒラギノ角ゴ Pro W3' , 'Hiragino Kaku Gothic Pro' , 'ＭＳ Ｐゴシック' , 'Osaka' ,sans-serif; */
+	text-align: center;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	-webkit-text-size-adjust: 100%;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+
+/* ━━━ 【メインコンテンツ内】 ━━━━━━━━ */
+.tmContNaiyo{
+	padding: 5px 5px 5px 7px;
+}
+
+
+
+/* 共通テーブル */
+.tmTable{
+	font-family:"Osaka?等幅","ＭＳ ゴシック","monospace";
+	background-color: #ffffff;
+	border-collapse: collapse;
+	color: #333333;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+.tmTable th{
+	text-align: center;
+	border: 1px #666666 solid;
+	padding: 3px 5px;
+	background-color: #eeeeee;
+	font-size:9pt;
+}
+.tmTable td{
+	border: 1px #666666 solid;
+	padding: 6px;
+	letter-spacing: 1px;
+	font-size:9pt;
+}
+.tmTable td p{
+	margin:0;
+	padding: 5px;
+	line-height: 1.5em;
+}
